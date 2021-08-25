@@ -1,0 +1,393 @@
+.top-line{
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid rgb(213, 212, 218);
+    padding: 5px 0px;
+}
+.top-line > button{
+color: lightgray; 
+background-color: white;
+border: none;
+padding: 0px 3px;
+display: flex ;
+font-size: 10px;
+cursor: pointer ;
+} 
+.top-line> button > img{
+    margin:0px 0px 0px 5px; 
+}
+.top-line>button.start {
+   margin-right: 20%; 
+   margin-left:3%;
+}
+.top-line>button.end{
+ margin-left: 20%; 
+ margin-right:3%;
+}
+.top-line > button > select{
+    border: none;
+    background-color: white;    
+}
+.second-line{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 20px;
+}
+.second-line > .symbole{
+    display: flex; 
+    margin-top: 5px;   
+}
+.second-line >.symbole> img{
+border-radius: 10px;
+margin: 4px 0 35px 0;
+}
+.second-line > .symbole> h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.4em;
+    margin-left: 0.2em;
+    color: rgb(55, 54, 58);
+}
+.second-line >.search-line{ 
+    display: flex;
+    margin: 5px 0 35px 0;
+}
+
+ .second-line >.search-line > select.left {
+    border:1px solid white;
+    border-radius: 50px 0  0  50px ; 
+    box-sizing: border-box;
+    box-shadow: 5px 10px 18px 10px rgb(224, 219, 219);
+  }
+  .second-line >.search-line > input.right {
+    border:1px solid white;
+    border-radius: 0 50px 50px 0 ; 
+    box-sizing: border-box;
+    padding-right: 300px;
+    
+    box-shadow: 20px 10px 18px 10px rgb(224, 219, 219);
+  }
+  .second-line >.search-line > button.search{
+      margin-left: -10px;
+      border:none;
+      background-color: rgb(252, 166, 6);
+      border-radius:10px ; 
+      box-sizing: border-box;
+      box-shadow: 5px 10px 18px 10px rgb(224, 219, 219);
+      cursor: pointer ;
+
+  }
+  .second-line >.search-line > button.search> img{
+    padding:10px 20px;
+    
+  }
+
+  .second-line >.shop-items{
+    display: flex;
+}
+
+.second-line >.shop-items> button{
+    background-color:white; 
+    border: 0px solid white;
+    margin-bottom: 25px;
+    cursor: pointer ;
+}
+
+.third-line{
+    display: flex;
+    justify-content:space-around ;
+}
+
+.third-line>.category-lines{
+    display: flex;
+}
+
+.third-line >.category-lines> button{
+    background-color:white; 
+    border: 0px solid white;
+    cursor: pointer ;  
+}
+.third-line >.category-lines> select{
+    border: none;
+}
+.third-line> .popular{
+    display: flex;
+}
+.third-line> .popular> button{
+    color: lightgray; 
+    background-color: white;
+    border: none;
+    padding: 0px 15px;
+    display: flex ;
+    font-size:15px;
+    cursor: pointer ; 
+    margin-top:2px;
+}
+.third-line> .right{
+    display: flex;
+}
+.third-line> .right> button{
+    color: lightgray; 
+    background-color: white;
+    border: none;
+    padding: 0px 15px;
+    display: flex ;
+    font-size:15px;
+    cursor: pointer ; 
+    margin-top:2px;
+}
+.main-pic{
+    display:flex;
+    align-content:center;
+    flex-direction: column; 
+}
+.main-pic>img{
+    width: 100%;
+    margin-bottom: -40px;
+}
+.main-pic>.top-line{ 
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    border: 1px solid white;
+    border-radius:50px 50px ;
+    box-shadow:  1px 1px 5px rgb(224, 219, 219);
+    width:60%;
+    margin-left:30%;
+}
+.main-pic> .top-line> .left{
+display: flex;
+}
+.main-pic> .top-line> .left> button{
+    background-color:white;
+    font-weight: bolder;
+    color: lightgray;
+    border:none;
+    border-radius:50%;
+}
+.main-pic> .top-line>.right{
+    display: flex;
+}
+.main-pic> .top-line>.right>h4{
+    color:lightgray;
+}
+.main-pic> .top-line>.right> select{
+        background-color:white;
+        color: rgb(25, 25, 235);
+        font-weight: bolder;
+        border:none;
+        border-radius:50%;
+}
+.main{
+    background-color:rgb(245, 241, 241);
+     display:flex;
+     margin-top:-40px;
+     padding:50px 30px 30px 100px;
+     
+ }
+ .main>.bottles{
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .main>.bottles>.bottle{
+    display: flex;
+    border-radius: 10px 10px;
+    width:220px;
+    height: 350px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+ }
+ .main>.bottles>.bottle:hover{
+    border: 1px solid red;
+    width:218px;
+    height: 348px;
+     }
+ .main>.bottles>.page-number{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    border: 1px solid white;
+    border-radius:50px 50px ;
+    box-shadow:  1px 1px 5px rgb(224, 219, 219);
+    width:50%;
+    height:50px;
+    margin-left:25%;
+    
+ }
+ .main>.bottles>.page-number>button{
+        background-color:white;
+        font-weight: bolder;
+        color: lightgray;
+        border:none;
+        border-radius:100% ;
+        
+    }
+    .main>.bottles>.page-number>button:hover{
+        background-color:rgb(255, 0, 43);
+    }
+
+    .main>.bottles>.page-number>button:active{
+        transform: translateY(4px);
+      }
+
+
+ .main>.left{
+     display:flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+
+.main>.left>.data{
+    display: flex;
+    border-radius: 10px 10px;
+    margin-top: 60px;
+    width:250px;
+    height:500px;
+    background-color: white;
+    flex-direction: column;
+    padding: 10px;
+}
+.main>.left>.data>.title-1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main>.left>.data>.title-2{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid rgb(213, 212, 218);
+    margin-top: 20px;
+}
+
+.main>.left>.data>.title-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.main>.left>.data>.title-4{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(213, 212, 218);
+}
+.main>.left>.data>.title-5{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(213, 212, 218);
+}
+.main>.left>.data>.title-6{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main>.left>.data>.wine-type{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    border-bottom:1px solid rgb(213, 212, 218);
+}
+.main>.left>.data>.brand-type>.search{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.main>.left>.data>.brand-type>.search>input{
+    border:1px solid white;
+    border-radius:50px ; 
+    box-sizing: border-box;
+    padding: 5px;
+
+    box-shadow: 5px 5px 10px 2px rgb(224, 219, 219);
+}
+
+.main>.left>.data>.brand-type{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    border-bottom:1px solid rgb(213, 212, 218);
+
+}
+
+.main>.left>.glass-pic{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main>.left>.glass-pic>img{
+    width:250px;
+    border-radius: 10px 10px;
+
+}
+.bottom-line{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(213, 212, 218);
+    padding: 10px 0px;
+}
+.bottom-line >.left{
+    display: flex;
+}
+.bottom-line >.left> button{
+display: flex;
+color: rgb(17, 16, 16); 
+background-color: white;
+border: none;
+padding: 10px 10px;
+font-size: 10px;
+cursor: pointer ;
+font-weight: bolder;
+}
+.bottom-line >.right{
+    display: flex;
+}
+.bottom-line >.right> button{
+    display: flex;
+    color: lightgray; 
+    background-color: white;
+    border: none;
+    padding: 0px 3px;
+    font-size: 10px;
+    cursor: pointer ;
+    }  
+.bottom-line>.right> button > img{
+    margin:0px 0px 0px 5px; 
+
+}
+.bottom-line>.right> button >select{
+    border: none;
+    background-color: white;    
+}
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.last-line >.left{
+    display: flex;
+}
+.last-line >.left> button{
+display: flex;
+color: lightgray; 
+background-color: white;
+border: none;
+padding: 10px 10px;
+font-size: 10px;
+cursor: pointer ;
+}
+.last-line >.right{
+    display: flex;
+}
+.last-line >.right> button{
+    display: flex;
+    color: lightgray; 
+    background-color: white;
+    border: none;
+    padding: 0px 3px;
+    font-size: 10px;
+    cursor: pointer ;
+    }  
+.bottom-line>.right> button >select{
+    border: none;
+    background-color: white;    
+}
